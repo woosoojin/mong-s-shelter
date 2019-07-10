@@ -19,6 +19,6 @@ import mongs.views
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('index.html', mongs.views.index, name='index'),
+    path('index', mongs.views.index, name='index'),
     path('', mongs.views.vi, name='vi'),
 ]
